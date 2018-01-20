@@ -5,8 +5,8 @@ public class Tarea {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int numerorandom = (int) (Math.random()*100 + 1);
-		System.out.println("Dime un numero entre 1 y 100");
+		int numerorandom = (int) (Math.random()*10 + 1);
+		System.out.println("Dime un numero entre 1 y 10");
 		int numero = sc.nextInt();
 		
 		 while (numero!=numerorandom) {
